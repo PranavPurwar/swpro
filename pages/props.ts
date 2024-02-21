@@ -12,7 +12,7 @@ const COMMUNITY = [
 ]
 
 const SWPRO = [
-    { title: 'Download', link: '/download' },
+    { title: 'Download', link: 'https://github.com/Sketchware-pro/Sketchware-Pro/releases' },
     { title: 'Blog', link: '/blog' },
     { title: 'Documentation', link: '/docs' }
 ]

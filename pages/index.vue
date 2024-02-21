@@ -18,8 +18,8 @@ import Header from '../components/Header.vue'
             your app today!</p>
 
           <div class="flex gap-4 pt-4">
-            <button class="bg-[#f94062] text-gray-200 font-extrabold p-4 rounded-xl w-1/3">Download Now</button>
-            <button class="bg-[#3871ed] text-gray-200 font-extrabold p-4 rounded-xl w-1/3">Get Started</button>
+            <a class="bg-[#f94062] text-gray-200 font-extrabold p-4 rounded-xl w-1/3 text-center" href="https://github.com/Sketchware-pro/Sketchware-Pro/releases">Download Now</a>
+            <a class="bg-[#3871ed] text-gray-200 font-extrabold p-4 rounded-xl w-1/3 text-center">Get Started</a>
 
           </div>
         </div>
