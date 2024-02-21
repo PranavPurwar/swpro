@@ -3,11 +3,11 @@
     <main class="bg-[#0b1026]">
         <Header />
 
-        <div class="about text-gray-200 p-32">
+        <div class="about text-gray-200 p-8 md:p-32">
             <main>
-                <h1 class="font-semibold text-6xl text-gray-300 mb-8">About Sketchware Pro</h1>
+                <h1 class="font-semibold text-2xl md:text-6xl text-gray-300 mb-8">About Sketchware Pro</h1>
 
-                <p class="text-2xl text-gray-400">
+                <p class="text-lg md:text-2xl text-gray-400">
                     Sketchware Pro is a modified version of Sketchware, an Android app development platform. It was created
                     to enhance the functionality and features of the original Sketchware app. Sketchware Pro is an
                     open-source project that is maintained by a community of contributors.
