@@ -13,9 +13,9 @@
                 We love Sketchware very much, and we are grateful to Sketchware's developers for making such an amazing app,
                 but unfortunately, we haven't received updates for a long time. That's why we decided to keep Sketchware
                 alive by making this mod, and we don't demand any money for it. It's completely free :)
-            </p>
 
-            <p class="text-xl md:text-2xl font-light">
+            <br />
+
                 Sketchware Pro is not affiliated with Sketchware in any way. Sketchware Pro is a community-driven project
                 that aims to keep Sketchware alive by adding new features and fixing bugs. Sketchware Pro is not a
                 replacement for Sketchware, nor is it a competitor. Sketchware Pro is a mod of Sketchware, and it is
