@@ -14,7 +14,11 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "axios": "^1.6.7",
+    "axios-https-proxy-fix": "^0.17.1",
+    "marked": "^12.0.0",
     "nuxt": "^3.10.2",
+    "reading-time-estimator": "^1.9.4",
     "vue": "^3.4.15"
   },
   "devDependencies": {
