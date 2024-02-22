@@ -14,21 +14,21 @@
             <h1 class="font-semibold text-lg md:text-2xl pb-2 md:pb-4">Sketchware Pro</h1>
 
             <a v-for="sw in SWPRO" :key="sw.title" :href="sw.link"
-              class="text-lg text-gray-400 font-light no-underline hover:underline">{{ sw.title }}</a>
+              class="text-lg text-gray-400 font-light no-underline hover:underline pl-1 md:pl-0">{{ sw.title }}</a>
           </div>
         </div>
         <div class="flex flex-col">
           <h1 class="font-semibold text-lg md:text-2xl pb-2 md:pb-4">Community</h1>
 
           <a v-for="community in COMMUNITY" :key="community.title" :href="community.link"
-            class="text-lg text-gray-400 font-light no-underline hover:underline">{{ community.title }}</a>
+            class="text-lg text-gray-400 font-light no-underline hover:underline pl-1 md:pl-0">{{ community.title }}</a>
         </div>
 
         <div class="flex flex-col">
           <h1 class="font-semibold text-lg md:text-2xl pb-2 md:b-4">More</h1>
 
           <a v-for="more in MORE" :key="more.title" :href="more.link"
-            class="text-lg text-gray-400 font-light no-underline hover:underline">{{ more.title }}</a>
+            class="text-lg text-gray-400 font-light no-underline hover:underline pl-1 md:pl-0">{{ more.title }}</a>
         </div>
       </div>
     </div>
