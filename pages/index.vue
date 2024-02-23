@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import Footer from '../components/Footer.vue'
-import Header from '../components/Header.vue'
+import AppHeader from '~/components/AppHeader.vue';
+import AppFooter from '~/components/AppFooter.vue';
 
 </script>
 
 <template>
   <main class="bg-[#0b1026]">
-    <Header />
+    <AppHeader />
 
     <div class="flex flex-col md:gap-8 gap-2">
       <div class="flex flex-col md:flex-row-reverse items-center py-2 md:py-16 mx-8 md:px-24">
@@ -29,7 +29,7 @@ import Header from '../components/Header.vue'
       </div>
     </div>
 
-    <Footer />
+    AppFooter />
   </main>
 </template>
 

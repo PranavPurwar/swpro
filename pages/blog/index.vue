@@ -1,6 +1,6 @@
 <template>
   <main class="bg-[#0b1026]">
-    <Header />
+    <AppHeader />
 
     <div class="about text-gray-200 p-8 md:p-16">
       <h1 class="font-semibold text-4xl md:text-6xl text-gray-200 mb-16">Blog</h1>
@@ -16,11 +16,14 @@
       </div>
     </div>
 
-    <Footer />
+    <AppFooter />
   </main>
 </template>
 
 <script setup lang="ts">
+import AppHeader from '~/components/AppHeader.vue';
+import AppFooter from '~/components/AppFooter.vue';
+
 import { readingTime } from 'reading-time-estimator';
 import type { BlogPost } from '~/server/types';
 

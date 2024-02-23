@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-white bottom-0 p-2 md:p-12 pt-8 md:pt-0 pl-8 md:pl-0">
+  <footer class="text-white bottom-0 p-2 md:p-12 pt-8 md:pt-0 pl-8 md:pl-12">
     <div class="container mx-auto flex flex-col md:justify-between items-left md:items-center gap-2 md:gap-4">
       <div class="flex flex-col md:flex-row container mx-auto justify-between md:items-center gap-4">
         <div class="hidden md:flex flex-col gap-2">

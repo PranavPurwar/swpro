@@ -1,6 +1,6 @@
 <template>
     <main class="bg-[#0b1026]">
-        <Header />
+        <AppHeader />
         <div class="text-gray-400 flex flex-col gap-12 p-8 md:p-16">
             <h1 class="text-3xl md:text-6xl font-bold">Disclaimer</h1>
 
@@ -24,13 +24,14 @@
             </p>
 
         </div>
-        <Footer />
+        <AppFooter />
     </main>
 </template>
 
 <script setup lang="ts">
-import Footer from '../components/Footer.vue'
-import Header from '../components/Header.vue'
+import AppHeader from '~/components/AppHeader.vue';
+import AppFooter from '~/components/AppFooter.vue';
+
 </script>
 
 

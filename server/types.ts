@@ -1,9 +1,7 @@
-interface BlogPost {
+export interface BlogPost {
     title: string;
-    content: string;
     author: string;
     date: string;
-    id: number;
+    id: string;
 }
 
-export type { BlogPost };
