@@ -1,7 +1,7 @@
 <template>
 
     <main class="bg-[#0b1026]">
-        <Header />
+        <AppHeader />
 
         <div class="about text-gray-200 p-8 md:p-32">
             <main>
@@ -26,7 +26,7 @@
                 </p>
             </main>
         </div>
-        <Footer />
+        <AppFooter />
 
     </main>
 </template>

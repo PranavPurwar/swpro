@@ -9,8 +9,8 @@
           <div v-for="post in blogPosts" :key="post.title" class="rounded-3xl border border-gray-600 p-8">
             <a :href="`/blog/${post.id}`" class="flex flex-col gap-4">
             <h2 class="text-3xl font-semibold text-gray-300">{{ post.title }}</h2>
-            <p class="text-gray-400">{{ post.content.split(' ').slice(0, 40).join(' ') }}</p>
-            <p class="text-gray-500 text-right"><span class="text-gray-600">{{ readingTime(post.content, 100).text }}</span> - {{ post.date }}</p>
+            <p class="text-gray-400">{{ post.description }}</p>
+            <p class="text-gray-500 text-right">{{ post.date }}</p>
           </a>
           </div>
       </div>
@@ -28,6 +28,7 @@ import { readingTime } from 'reading-time-estimator';
 import type { BlogPost } from '~/server/types';
 
 var blogPosts: BlogPost[] = await $fetch('/api/blogs')
+
 
 </script>
 
