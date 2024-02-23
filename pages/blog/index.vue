@@ -24,7 +24,7 @@
 import { readingTime } from 'reading-time-estimator';
 import type { BlogPost } from '~/server/types';
 
-const blogPosts: BlogPost[] = await fetch('http://localhost:3000/api/blogs').then((res) => res.json());
+var blogPosts: BlogPost[] = await $fetch('/api/blogs')
 
 </script>
 
