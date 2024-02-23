@@ -29,7 +29,7 @@ import AppFooter from '~/components/AppFooter.vue';
       </div>
     </div>
 
-    AppFooter />
+    <AppFooter />
   </main>
 </template>
 
